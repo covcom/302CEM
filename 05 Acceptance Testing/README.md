@@ -48,3 +48,10 @@ Instead of writing out a sequence of manual tests to ensure compliance your team
 3. Run the tests, they should fail.
 4. Start your feature development.
 5. Re-run your test suite regularly to check what still needs to be implemented.
+
+## Supporting Materials
+
+There are a number of supporting labs that will help you implement your acceptance tests.
+
+1. If you are creating a **website**, use the materials in the **casperjs** directory.
+2. If you are creating an **API**, use the materials in the **frisbyjs** directory.
