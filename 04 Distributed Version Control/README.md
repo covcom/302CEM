@@ -78,3 +78,63 @@ All the activities in this worksheet are based around GitLab however they apply 
 
 1. GitHub
 2. BitBucket
+
+# Git Flow
+
+Need to install
+
+Then initialise inside an existing repository.
+```
+git flow init
+```
+
+## Features
+
+Start a new feature.
+```
+git flow feature start myfeature
+```
+
+Share a feature with other developers
+```
+git flow feature publish myfeature
+```
+
+Get a feature from the remote to work on.
+```
+git flow feature pull origin myfeature
+```
+
+Track feature on remote.
+```
+git flow feature track myfeature
+```
+
+Finish a feature.
+```
+git flow feature finish myfeature
+```
+
+## Releases
+
+To start a release use the following. It creates a release branch from the develop branch.
+```
+git flow release start myrelease
+```
+Then need to publish the release branch to allow other developers to contribute.
+```
+git flow release publish myrelease
+```
+Track the remote release.
+```
+git flow release track myrelease
+```
+Finishing up a release. remember to push the tags.
+```
+git flow release finish myrelease
+git push --tags
+```
+
+https://yakiloo.com/getting-started-git-flow/
+
+http://danielkummer.github.io/git-flow-cheatsheet/
